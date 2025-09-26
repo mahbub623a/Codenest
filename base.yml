@@ -1,0 +1,104 @@
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+matches:
+  # Print the current date
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+
+  # Personal info
+  - trigger: ":name"
+    replace: "Md. Mahbubur Rahman"
+
+  - trigger: ":id"
+    replace: "011221441"
+
+  - trigger: ":uiu"
+    replace: "United International University"
+
+  - trigger: ":gp"
+    replace: "01744177620"
+
+  - trigger: ":tt"
+    replace: "01511177620"
+
+
+
+  # email
+  - trigger: ":vm"
+    replace: "mrahman221441@bscse.uiu.ac.bd"
+
+  - trigger: ":mm"
+    replace: "mrahman623a@gmail.com"
+
+  - trigger: ":um"
+    replace: "maahbub620@gmail.com"
+
+  - trigger: ":bm"
+    replace: "www.mahbubr@gmail.com"
+
+
+  # Handle
+  - trigger: ":cf"
+    replace: "TribalLiege"
+
+  - trigger: ":cp"
+    replace: "mahbub620"
+
+
+  # emoji
+  - trigger: ";l"
+    replace: "😂😂"
+  - trigger: ";c"
+    replace: "🥹🥹"
+  - trigger: ";C"
+    replace: "🙂🙂"
+  - trigger: ";s"
+    replace: "😔😔"
+  - trigger: ";h"
+    replace: "❤️❤️"
+  - trigger: ";b"
+    replace: "💔💔"
+  - trigger: ";k"
+    replace: "😘😘"
+  - trigger: ";K"
+    replace: "🦶🦶"
+  - trigger: ";y"
+    replace: "😋😋"
+  - trigger: ";t"
+    replace: "🤤🤤"
+
+  # Random
+  - trigger: ":meet"
+    replace: "https://meet.google.com/zmv-veru-axj"
+
+  - trigger: ":ria"
+    replace: "https://meet.google.com/ehy-zysm-zeh"
+
+  # Git bash
+  - trigger: ",s"
+    replace: "git status"
+
+  - trigger: ",b"
+    replace: "git branch"
+
+  - trigger: ",c"
+    replace: 'git ac "$|$"'
+
+  - trigger: ",a"
+    replace: 'git acp "$|$"'
+
+  - trigger: ",o"
+    replace: "git checkout "
+
+  - trigger: ",p"
+    replace: "git push "
+
+  - trigger: ",l"
+    replace: "git pull"
+
+  - trigger: ",m"
+    replace: "git merge"
