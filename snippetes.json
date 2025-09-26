@@ -8,21 +8,21 @@
     "CP template": {
         "prefix": "Jana",
         "body": [
-            "/*",
-            "    author  : Mahbub",
-            "    created : ${CURRENT_MONTH_NAME_SHORT}/${CURRENT_DATE}/${CURRENT_YEAR}, ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}",
-            "*/",
+            "/**",
+            " *  author  : Mahbub",
+            " *  created : ${CURRENT_MONTH_NAME_SHORT}/${CURRENT_DATE}/${CURRENT_YEAR}, ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}",
+            "**/",
             "#include <bits/stdc++.h>",
             "using namespace std;",
-            "#define int long long int",
             "",
+            "#define int long long int",
             "#ifdef LOCAL",
-            "#include \"debug.h\"",
+            "#include \"../codeforge/debug.h\"",
             "#endif",
             "",
             "void OTC()",
             "{",
-            "    ${0:/* code */}",
+            "    $0",
             "}",
             "",
             "signed main()",
@@ -180,7 +180,7 @@
             "    cout << v[x] << endl;",
             "}"
         ],
-        "description": "Count the divisor"
+        "description": "Count the divisor upto n"
     },
     "Prime check": {
         "prefix": "prime",
