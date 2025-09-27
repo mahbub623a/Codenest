@@ -75,9 +75,6 @@ matches:
   - trigger: ":meet"
     replace: "https://meet.google.com/zmv-veru-axj"
 
-  - trigger: ":ria"
-    replace: "https://meet.google.com/ehy-zysm-zeh"
-
   # Git bash
   - trigger: ",s"
     replace: "git status"
@@ -86,10 +83,10 @@ matches:
     replace: "git branch"
 
   - trigger: ",c"
-    replace: 'git ac "$|$"'
+    replace: 'git commit -m "$|$"'
 
   - trigger: ",a"
-    replace: 'git acp "$|$"'
+    replace: "git add ."
 
   - trigger: ",o"
     replace: "git checkout "
